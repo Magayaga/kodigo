@@ -1,0 +1,25 @@
+{
+  "name": "kodigo",
+  "version": "0.1.0-preview0",
+  "description": "This is Philippines' first development of  source-code editor",
+  "main": "src/assets/scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coffee": "coffee -c src/assets/scripts/function.coffee src/assets/scripts/main.coffee",
+    "kodigo": "npm run coffee & electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magayaga/kodigo.git"
+  },
+  "author": "Cyril John Magayaga <cjmagayaga957@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magayaga/kodigo/issues"
+  },
+  "homepage": "https://github.com/magayaga/kodigo#readme",
+  "devDependencies": {
+    "coffeescript": "^2.7.0",
+    "electron-nightly": "^27.0.0-nightly.20230808"
+  }
+}

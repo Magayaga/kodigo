@@ -1,0 +1,16 @@
+# JavaScript scripts
+src/assets/scripts/function.js
+src/assets/scripts/main.js
+
+# CSS fonts
+src/assets/fonts/ibm-plex-mono
+src/assets/fonts/jetbrains-mono
+
+# HTML files
+src/about.html
+
+# Node.js
+node_modules
+
+# JSON
+package-lock.json

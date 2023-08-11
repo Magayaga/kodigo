@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#editor, .CodeMirror {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.footer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+}
+
+.theme-dropdown {
+    margin-right: 10px;
+}
+
+.kodigo-sm-font-size {
+    font-size: 0.7rem;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
