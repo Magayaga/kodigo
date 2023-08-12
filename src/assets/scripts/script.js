@@ -13,13 +13,6 @@ var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
   matchBrackets: true
 });
 
-var themeDropdown = document.getElementById("theme-dropdown");
-var themeApplyButton = document.getElementById("toggle-theme-button");
-themeApplyButton.addEventListener("click", function () {
-  var selectedTheme = themeDropdown.value;
-  editor.setOption("theme", selectedTheme);
-});
-
 editor.on("change", function () {
   updateFooterInfo();
 });

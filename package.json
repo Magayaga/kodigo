@@ -1,11 +1,13 @@
 {
   "name": "kodigo",
-  "version": "0.1.0-preview0",
-  "description": "This is Philippines' first development of  source-code editor",
+  "version": "0.1.0-preview1",
+  "description": "This is Philippines' first development of source-code editor",
   "main": "src/assets/scripts/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "coffee": "coffee -c src/assets/scripts/function.coffee src/assets/scripts/main.coffee",
+    "coffee": "npm run coffee-selects & npm run coffee-scripts",
+    "coffee-selects": "coffee -c src/assets/addons/selects",
+    "coffee-scripts": "coffee -c src/assets/scripts",
     "kodigo": "npm run coffee & electron ."
   },
   "repository": {

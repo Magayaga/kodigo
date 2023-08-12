@@ -1,3 +1,10 @@
+themeDropdown = document.getElementById("theme-dropdown")
+themeApplyButton = document.getElementById("toggle-theme-button")
+
+themeApplyButton.addEventListener "click", ->
+    selectedTheme = themeDropdown.value
+    editor.setOption "theme", selectedTheme
+
 languageDropdown = document.getElementById "language-dropdown"
 languageDropdown.addEventListener "change", ->
     selectedMode = languageDropdown.value

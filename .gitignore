@@ -1,6 +1,8 @@
 # JavaScript scripts
 src/assets/scripts/function.js
 src/assets/scripts/main.js
+src/assets/scripts/snippets.js
+src/assets/addons/selects/active-line.js
 
 # CSS fonts
 src/assets/fonts/ibm-plex-mono
