@@ -8,7 +8,8 @@
     "coffee": "npm run coffee-selects & npm run coffee-scripts",
     "coffee-selects": "coffee -c src/assets/addons/selects",
     "coffee-scripts": "coffee -c src/assets/scripts",
-    "kodigo": "npm run coffee & electron ."
+    "kodigo": "npm run coffee & electron .",
+    "kodigo-build": "npm run coffee & electron-packager ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/magayaga/kodigo#readme",
   "devDependencies": {
     "coffeescript": "^2.7.0",
-    "electron-nightly": "^27.0.0-nightly.20230808"
+    "electron-nightly": "^27.0.0-nightly.20230808",
+    "electron-packager": "^17.1.1"
   }
 }

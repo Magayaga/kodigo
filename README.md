@@ -21,7 +21,9 @@ kodigo/
     │   │   ├── ibm-plex-mono/
     │   │   ├── jetbrains-mono/
     │   │   ├── roboto-mono/
-    │   │   └── source-code-pro/
+    │   │   ├── source-code-pro/
+    │   │   ├── space-mono/
+    │   │   └── ubuntu-mono/
     │   ├── modes/
     │   │   ├── coffeescript.js
     │   │   ├── css.js
@@ -35,7 +37,7 @@ kodigo/
     │   │   ├── function.coffee
     │   │   ├── main.coffee
     │   │   ├── script.js
-    │   │   └── snippets.js
+    │   │   └── snippets.coffee
     │   ├── styles/
     │   │   ├── bootstrap.css
     │   │   ├── codemirror.css

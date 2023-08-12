@@ -1,12 +1,17 @@
-# JavaScript scripts
+# JavaScript scripts and selects
 src/assets/scripts/function.js
 src/assets/scripts/main.js
 src/assets/scripts/snippets.js
+src/assets/scripts/script.js
 src/assets/addons/selects/active-line.js
 
 # CSS fonts
 src/assets/fonts/ibm-plex-mono
 src/assets/fonts/jetbrains-mono
+src/assets/fonts/space-mono
+src/assets/fonts/ubuntu-mono
+src/assets/fonts/fira-code
+src/assets/fonts/apple-sf-mono
 
 # HTML files
 src/about.html

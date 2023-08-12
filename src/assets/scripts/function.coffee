@@ -23,6 +23,14 @@ changeFont = (font) ->
         fontFamily = "'Source Code Pro', monospace"
     else if font is "courier-new"
         fontFamily = "'Courier New', Courier, monospace"
+    else if font is "ibm-plex-mono"
+        fontFamily = "'IBM Plex Mono', monospace"
+    else if font is "jetbrains-mono"
+        fontFamily = "'JetBrains Mono', monospace"
+    else if font is "space-mono"
+        fontFamily = "'Space Mono', monospace"
+    else if font is "ubuntu-mono"
+        fontFamily = "'Ubuntu Mono', monospace"
     editor.getWrapperElement().style.fontFamily = fontFamily
     editor.refresh()
 
