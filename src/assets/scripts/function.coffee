@@ -31,6 +31,12 @@ changeFont = (font) ->
         fontFamily = "'Space Mono', monospace"
     else if font is "ubuntu-mono"
         fontFamily = "'Ubuntu Mono', monospace"
+    else if font is "fira-code"
+        fontFamily = "'Fira Code', monospace"
+    else if font is "sf-mono"
+        fontFamily = "'SF Mono', monospace"
+    else if font is "andale-mono"
+        fontFamily = "'Andale Mono', monospace"
     editor.getWrapperElement().style.fontFamily = fontFamily
     editor.refresh()
 

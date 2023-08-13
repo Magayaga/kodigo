@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Andale Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Andale Mono'), url('ANDALEMO.woff') format('woff');
+}
