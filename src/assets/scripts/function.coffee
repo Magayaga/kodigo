@@ -99,31 +99,31 @@ document.addEventListener "keydown", (e) ->
       saveFile()
 
 openFile = ->
-  fileInput = document.createElement "input"
-  fileInput.type = "file"
-  fileInput.accept = ".txt,.md,.html,.js,.ts,.c,.h,.cpp,.py,.java,.rs,.cs"
-  fileInput.onchange = ->
-    file = fileInput.files[0]
-    if file
-      reader = new FileReader()
-      reader.onload = (e) ->
-        contents = e.target.result
-        editor.setValue contents
-      reader.readAsText file
-  fileInput.click()
+    fileInput = document.createElement "input"
+    fileInput.type = "file"
+    fileInput.accept = ".txt,.md,.html,.js,.ts,.c,.h,.cpp,.py,.java,.rs,.cs"
+    fileInput.onchange = ->
+        file = fileInput.files[0]
+        if file
+            reader = new FileReader()
+            reader.onload = (e) ->
+                contents = e.target.result
+                editor.setValue contents
+            reader.readAsText file
+    fileInput.click()
 
 saveFile = ->
-  content = editor.getValue()
-  customExtension = prompt "Enter file extension (e.g., txt, md, html):"
-  if customExtension
-    blob = new Blob([content], { type: "text/plain;charset=utf-8" })
-    a = document.createElement "a"
-    a.href = URL.createObjectURL blob
-    a.download = "index." + customExtension
-    a.style.display = "none"
-    document.body.appendChild a
-    a.click()
-    document.body.removeChild a
+    content = editor.getValue()
+    customExtension = prompt "Enter file extension (e.g., txt, md, html):"
+    if customExtension
+        blob = new Blob([content], { type: "text/plain;charset=utf-8" })
+        a = document.createElement "a"
+        a.href = URL.createObjectURL blob
+        a.download = "index." + customExtension
+        a.style.display = "none"
+        document.body.appendChild a
+        a.click()
+        document.body.removeChild a
 
 handlePaste = (event) ->
     event.preventDefault()
