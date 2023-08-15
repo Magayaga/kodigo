@@ -48,11 +48,13 @@ kodigo/
     │   └── themes/
     │       ├── darcula.css
     │       ├── erlang-dark.css
+    │       ├── moonlight-wheat.css
     │       ├── neo.css
     │       ├── rubyblue.css
-    │       └── tomorrow-night-bright.css
+    │       ├── tomorrow-night-bright.css 
+    │       └── zenburn.css
     ├── index.html
-    └── about.html
+    └── about.html*
 ```
 
 ## Getting start

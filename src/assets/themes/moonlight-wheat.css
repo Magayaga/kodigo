@@ -1,0 +1,49 @@
+/*
+
+    Name:       Moonlight Wheat
+    Author:     Cyril John Magayaga
+
+    Created by Cyril John Magayaga <cjmagayaga957@gmail.com>
+
+*/
+
+.cm-s-moonlight-wheat.CodeMirror { background: #051624; color: #eaeaea; }
+.cm-s-moonlight-wheat div.CodeMirror-selected { background: #424242; }
+.cm-s-moonlight-wheat .CodeMirror-gutters { background: #051624; border-right: 0px; }
+.cm-s-moonlight-wheat .CodeMirror-guttermarker { color: #e78c45; }
+.cm-s-moonlight-wheat .CodeMirror-guttermarker-subtle { color: #777; }
+.cm-s-moonlight-wheat .CodeMirror-linenumber { color: #424242; }
+.cm-s-moonlight-wheat .CodeMirror-cursor { border-left: 1px solid #6A6A6A; }
+
+.cm-s-moonlight-wheat span.cm-comment { color: #aeaeab; font-style:italic;}
+.cm-s-moonlight-wheat span.cm-atom { color: #d0633a; }
+.cm-s-moonlight-wheat span.cm-number { color: #d0633a; }
+.cm-s-moonlight-wheat span.cm-operator { color: #7663b3; }
+
+.cm-s-moonlight-wheat span.cm-header.cm-header-1,
+.cm-s-moonlight-wheat span.cm-header.cm-header-2,
+.cm-s-moonlight-wheat span.cm-header.cm-header-3,
+.cm-s-moonlight-wheat span.cm-header.cm-header-4,
+.cm-s-moonlight-wheat span.cm-header.cm-header-5,
+.cm-s-moonlight-wheat span.cm-header.cm-header-6 { color: #35aff3; }
+
+.cm-s-moonlight-wheat span.cm-strong { color: #ffb906; }
+.cm-s-moonlight-wheat span.cm-builtin { color: #97b596;}
+
+.cm-s-moonlight-wheat span.cm-qualifier { color: #35aff3; }
+.cm-s-moonlight-wheat span.cm-property, .cm-s-moonlight-wheat span.cm-attribute { color: #5d7bdd; font-style: italic;}
+.cm-s-moonlight-wheat span.cm-keyword { color: #816ac0; }
+.cm-s-moonlight-wheat span.cm-string { color: #e7c547; }
+.cm-s-moonlight-wheat span.cm-string-2 { color: #fdecce; }
+
+.cm-s-moonlight-wheat span.cm-variable { color: #47c2b5; font-style:italic;}
+.cm-s-moonlight-wheat span.cm-variable-2 { color: #7aa6da; }
+.cm-s-moonlight-wheat span.cm-def { color: #5d7bdd; font-style:italic;}
+.cm-s-moonlight-wheat span.cm-bracket { color: #d91e1e; }
+.cm-s-moonlight-wheat span.cm-tag { color: #816ac0; }
+.cm-s-moonlight-wheat span.cm-link { color: #35c2e1; }
+.cm-s-moonlight-wheat span.cm-string.cm-url { color: #1397e1; font-style:italic;}
+.cm-s-moonlight-wheat span.cm-error { color: #e68a8a; }
+
+.cm-s-moonlight-wheat .CodeMirror-activeline-background { background: #5c5037; }
+.cm-s-moonlight-wheat .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
