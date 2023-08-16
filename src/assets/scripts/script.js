@@ -10,7 +10,8 @@ var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
   autoCloseTags: true,
   lineWrapping: true,
   hintOptions: { hint: CodeMirror.hint.anyword },
-  matchBrackets: true
+  matchBrackets: true,
+  extraKeys: {"Ctrl-Space": "autocomplete"}
 });
 
 editor.on("change", function () {
