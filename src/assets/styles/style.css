@@ -29,3 +29,7 @@ body, html {
     padding-top: 4.5px;
     padding-bottom: 4.5px;
 }
+
+.width-3 {
+    width: 24px;
+}
