@@ -1,4 +1,10 @@
-# Welcome to the Kodigo!
+<p align="center">
+  <a href="https://github.com/magayaga/kodigo">
+    <img src="assets/logo/kodigo.svg" alt="Kodigo Logo" width="200" height="auto">
+  </a>
+</p>
+
+<h1 align="center">Kodigo</h1>
 
 **Kodigo** (Filipino for **"Code"**) is a free and open-source source-code editor was created and developed by [Cyril John Magayaga](https://github.com/magayaga). It is written in HTML, CSS, JavaScript, and CoffeeScript. 
 
@@ -27,6 +33,7 @@ kodigo/
     │   │   ├── source-code-pro/
     │   │   ├── space-mono/
     │   │   └── ubuntu-mono/
+    │   ├── logos/
     │   ├── modes/
     │   │   ├── coffeescript.js
     │   │   ├── css.js
