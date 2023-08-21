@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "coffee": "npm run coffee-selects & npm run coffee-scripts",
-    "coffee-selects": "coffee -c src/assets/addons/selects",
+    "coffee-selects": "npm run coffee-edits & coffee -c src/assets/addons/selects",
     "coffee-scripts": "coffee -c src/assets/scripts",
+    "coffee-edits": "coffee -c src/assets/addons/edits",
     "kodigo": "npm run coffee & electron .",
     "kodigo-build": "npm run coffee & electron-packager ."
   },
