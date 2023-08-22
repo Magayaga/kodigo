@@ -17,51 +17,21 @@ Create a project directory and structure it as follows:
 kodigo/
 ├── package.json
 └── src/
-    ├── assets/
-    │   ├── addons/
-    │   │   ├── edits/
-    │   │   ├── folds/
-    │   │   ├── hints/
-    │   │   └── selects/
-    │   ├── fonts/
-    │   │   ├── andale-mono/
-    │   │   ├── apple-sf-mono/
-    │   │   ├── fira-code/
-    │   │   ├── ibm-plex-mono/
-    │   │   ├── jetbrains-mono/
-    │   │   ├── roboto-mono/
-    │   │   ├── source-code-pro/
-    │   │   ├── space-mono/
-    │   │   └── ubuntu-mono/
-    │   ├── logos/
-    │   ├── modes/
-    │   │   ├── coffeescript.js
-    │   │   ├── css.js
-    │   │   ├── htmlmixed.js
-    │   │   ├── javascript.js
-    │   │   ├── markdown.js
-    │   │   └── python.js
-    │   ├── scripts/
-    │   │   ├── bootstrap-bundle.js
-    │   │   ├── codemirror.js
-    │   │   ├── function.coffee
-    │   │   ├── main.coffee
-    │   │   ├── script.js
-    │   │   └── snippets.coffee
-    │   ├── styles/
-    │   │   ├── bootstrap.css
-    │   │   ├── codemirror.css
-    │   │   └── style.css
-    │   └── themes/
-    │       ├── darcula.css
-    │       ├── erlang-dark.css
-    │       ├── moonlight-wheat.css
-    │       ├── neo.css
-    │       ├── rubyblue.css
-    │       ├── tomorrow-night-bright.css 
-    │       └── zenburn.css
-    ├── index.html
-    └── about.html*
+│   ├── assets/
+│   │   ├── addons/
+│   │   │   ├── edits/
+│   │   │   ├── folds/
+│   │   │   ├── hints/
+│   │   │   └── selects/
+│   │   ├── fonts/
+│   │   ├── logos/
+│   │   ├── modes/
+│   │   ├── scripts/
+│   │   ├── styles/
+│   │   └── themes/
+│   ├── index.html
+│   └── about.html*
+└── docs/
 ```
 
 ## Getting start
