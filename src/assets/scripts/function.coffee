@@ -45,6 +45,8 @@ changeFont = (font) ->
         fontFamily = "'Cascadia Mono PL', monospace"
     else if font is "cascadia-code-pl"
         fontFamily = "'Cascadia Code PL', monospace"
+    else if font is "azeret-mono"
+        fontFamily = "'Azeret Mono', monospace"
     editor.getWrapperElement().style.fontFamily = fontFamily
     editor.refresh()
 
