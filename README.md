@@ -57,7 +57,19 @@ $ npm run kodigo
 $ npm run kodigo-build
 ```
 
+**Running Kodigo with PHP**
+
+```shell
+
+# Download the Git
+$ git clone https://github.com/magayaga/kodigo
+$ cd kodigo/src
+
+# Download the PHP [https://www.php.net/]
+$ php -S localhost:8080
+```
+
 ## Copyright and License
-Copyright (c) 2023 Cyril John Magayaga
+Copyright (c) 2023-2024 Cyril John Magayaga
 
 Licensed under the [MIT license](LICENSE).
