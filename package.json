@@ -1,6 +1,6 @@
 {
   "name": "kodigo",
-  "version": "0.1.0-preview1",
+  "version": "0.1.0-preview2",
   "description": "This is Philippines' first development of source-code editor",
   "main": "src/assets/scripts/main.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "coffee-scripts": "coffee -c src/assets/scripts",
     "coffee-edits": "coffee -c src/assets/addons/edits",
     "kodigo": "npm run coffee & electron .",
-    "kodigo-build": "npm run coffee & electron-packager ."
+    "kodigo-build": "npm run coffee & electron-packager .",
+    "kodigo-preview": "electron ."
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,11 @@
   "homepage": "https://github.com/magayaga/kodigo#readme",
   "devDependencies": {
     "coffeescript": "^2.7.0",
-    "electron-nightly": "^27.0.0-nightly.20230808",
-    "electron-packager": "^17.1.1"
+    "electron-nightly": "^30.0.0-nightly.20231218",
+    "electron-packager": "^17.1.2",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
   }
 }
